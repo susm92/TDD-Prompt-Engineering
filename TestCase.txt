@@ -1,6 +1,24 @@
 ==== Manually Written Test Cases ====
 
-[Add your manually written test cases here]
+    def test_manual_1(self):
+        """The itinerary should return a list of concerts that state the artist, date, and location of each concert."""
+        itinerary = self.builder.build_itinerary(self.all_concerts)
+        self.assertIsInstance(itinerary, list)
+        self.assertTrue(all(isinstance(concert, Concert) for concert in itinerary))
+
+    def test_manual_2(self):
+        """The itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest)."""
+        itinerary = self.builder.build_itinerary(self.all_concerts)
+        sorted_itinerary = sorted(itinerary, key=lambda x: x.date)
+        self.assertEqual(itinerary, list)
+        self.assertNotEqual(itinerary, sorted_itinerary)
+
+    def test_manual_3(self):
+        """Some artists may have no concerts on the list. In that case, that should be indicated in the itinerary."""
+        itinerary = self.builder.build_itinerary(self.all_concerts)
+        for concert in itinerary:
+            if concert.artist not in self.all_concerts:
+                self.assertIn("No concerts available", concert)
 
 
 

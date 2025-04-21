@@ -1,0 +1,745 @@
+{
+  "experiment_start": "2025-04-21T16:45:14",
+  "test_runs": [
+    {
+      "timestamp": "2025-04-21T16:46:34.262215",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:51:04.523847",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:53:40.640192",
+      "results": {
+        "total": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:54:24.699425",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.build.builder(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:55:08.367669",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:56:21.960088",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:56:43.435556",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    #     itinerary = self.builder.builder(self.all_concerts)\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:57:22.657769",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    #     itinerary = self.builder(self.all_concerts)\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:58:48.555092",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    #     itinerary = self.builder(self.all_concerts)\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:00:04.790518",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    #     itinerary = self.builder(self.all_concerts)\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:01:19.685058",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    #     self.assertIsInstance(itinerary, list)\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:01:46.064472",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:04:03.834247",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:05:17.910912",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:12:03.912283",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    sorted_itinerary = sorted(itinerary, key=lambda x: x[1])\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:18:48.045369",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    sorted_itinerary = sorted(itinerary, key=lambda x: x[1])\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:21:56.812062",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    sorted_itinerary = sorted(itinerary, key=lambda x: x[1])\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:25:09.484725",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    sorted_itinerary = sorted(itinerary, key=lambda x: x[1])\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:31:38.728301",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    \"\"\"The itinerary should return a list of concerts that state the artist, date, and location of each concert.\"\"\"\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:35:36.404160",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    \"\"\"The itinerary should return a list of concerts that state the artist, date, and location of each concert.\"\"\"\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:36:48.930570",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    \"\"\"The itinerary should return a list of concerts that state the artist, date, and location of each concert.\"\"\"\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:01:48.141549",
+      "results": {
+        "total": 2,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ERROR\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ERROR\n\n======================================================================\nERROR: test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 26, in test_manual_1\n    \"\"\"The itinerary should return a list of concerts that state the artist, date, and location of each concert.\"\"\"\n                ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'ItineraryBuilder' object has no attribute 'builder'\n\n======================================================================\nERROR: test_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest).\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 33, in test_manual_2\n    itinerary = self.builder.build_itinerary(self.all_concerts)\n                ^^^^^^^^^^\nAttributeError: 'ItineraryBuilderTest' object has no attribute 'build'. Did you mean: 'builder'?\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:05:33.608095",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.008s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:12:33.224924",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:13:12.272061",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_ai_assisted_closest_concert_on_same_date (test.ItineraryBuilderTest.test_ai_assisted_closest_concert_on_same_date)\nIf two concerts are on the same date, the one closest to the last concert should be included. ... ok\ntest_ai_assisted_no_duplicate_dates (test.ItineraryBuilderTest.test_ai_assisted_no_duplicate_dates)\nThe itinerary should not include two concerts on the same date. ... ok\ntest_ai_assisted_prioritize_single_concert_artist (test.ItineraryBuilderTest.test_ai_assisted_prioritize_single_concert_artist)\nArtists with only one concert should be prioritized over artists with multiple concerts. ... FAIL\ntest_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n======================================================================\nFAIL: test_ai_assisted_prioritize_single_concert_artist (test.ItineraryBuilderTest.test_ai_assisted_prioritize_single_concert_artist)\nArtists with only one concert should be prioritized over artists with multiple concerts.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 64, in test_ai_assisted_prioritize_single_concert_artist\n    self.assertEqual(itinerary[0][0], \"Artist C\", \"Artist with a single concert was not prioritized.\")\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'Artist A' != 'Artist C'\n- Artist A\n?        ^\n+ Artist C\n?        ^\n : Artist with a single concert was not prioritized.\n\n----------------------------------------------------------------------\nRan 6 tests in 0.006s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:19:08.509626",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_ai_assisted_closest_concert_on_same_date (test.ItineraryBuilderTest.test_ai_assisted_closest_concert_on_same_date)\nIf two concerts are on the same date, the one closest to the last concert should be included. ... ok\ntest_ai_assisted_no_duplicate_dates (test.ItineraryBuilderTest.test_ai_assisted_no_duplicate_dates)\nThe itinerary should not include two concerts on the same date. ... ok\ntest_ai_assisted_prioritize_single_concert_artist (test.ItineraryBuilderTest.test_ai_assisted_prioritize_single_concert_artist)\nArtists with only one concert should be prioritized over artists with multiple concerts. ... FAIL\ntest_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n======================================================================\nFAIL: test_ai_assisted_prioritize_single_concert_artist (test.ItineraryBuilderTest.test_ai_assisted_prioritize_single_concert_artist)\nArtists with only one concert should be prioritized over artists with multiple concerts.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 64, in test_ai_assisted_prioritize_single_concert_artist\n    self.assertEqual(itinerary[0][0], \"Artist A\", \"Concerts were not sorted by date and artist name alphabetically.\")\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'Artist A' != 'Artist C'\n- Artist A\n?        ^\n+ Artist C\n?        ^\n : Artist with a single concert was not prioritized.\n\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:19:30.157938",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_ai_assisted_closest_concert_on_same_date (test.ItineraryBuilderTest.test_ai_assisted_closest_concert_on_same_date)\nIf two concerts are on the same date, the one closest to the last concert should be included. ... ok\ntest_ai_assisted_no_duplicate_dates (test.ItineraryBuilderTest.test_ai_assisted_no_duplicate_dates)\nThe itinerary should not include two concerts on the same date. ... ok\ntest_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same. ... FAIL\ntest_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n======================================================================\nFAIL: test_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 64, in test_ai_assisted_sort_by_date_and_artist\n    self.assertEqual(itinerary[0][0], \"Artist A\", \"Concerts were not sorted by date and artist name alphabetically.\")\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'Artist B' != 'Artist A'\n- Artist B\n?        ^\n+ Artist A\n?        ^\n : Concerts were not sorted by date and artist name alphabetically.\n\n----------------------------------------------------------------------\nRan 6 tests in 0.008s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:21:43.800228",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_ai_assisted_closest_concert_on_same_date (test.ItineraryBuilderTest.test_ai_assisted_closest_concert_on_same_date)\nIf two concerts are on the same date, the one closest to the last concert should be included. ... ok\ntest_ai_assisted_no_duplicate_dates (test.ItineraryBuilderTest.test_ai_assisted_no_duplicate_dates)\nThe itinerary should not include two concerts on the same date. ... ok\ntest_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same. ... FAIL\ntest_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n======================================================================\nFAIL: test_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 64, in test_ai_assisted_sort_by_date_and_artist\n    self.assertEqual(itinerary[0][0], \"Artist B\", \"Concerts were not sorted by date and artist name alphabetically.\")\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'Artist B' != 'Artist A'\n- Artist B\n?        ^\n+ Artist A\n?        ^\n : Concerts were not sorted by date and artist name alphabetically.\n\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:21:51.152174",
+      "results": {
+        "total": 6,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_ai_assisted_closest_concert_on_same_date (test.ItineraryBuilderTest.test_ai_assisted_closest_concert_on_same_date)\nIf two concerts are on the same date, the one closest to the last concert should be included. ... ok\ntest_ai_assisted_no_duplicate_dates (test.ItineraryBuilderTest.test_ai_assisted_no_duplicate_dates)\nThe itinerary should not include two concerts on the same date. ... ok\ntest_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same. ... FAIL\ntest_manual_1 (test.ItineraryBuilderTest.test_manual_1)\nThe itinerary should return a list of concerts that state the artist, date, and location of each concert. ... ok\ntest_manual_2 (test.ItineraryBuilderTest.test_manual_2)\nThe itinerary should return a list of concerts sorted in chronological order (by date from earliest to latest). ... ok\ntest_manual_3 (test.ItineraryBuilderTest.test_manual_3)\nSome artists may have no concerts on the list. In that case, that should be indicated in the itinerary. ... ok\n\n======================================================================\nFAIL: test_ai_assisted_sort_by_date_and_artist (test.ItineraryBuilderTest.test_ai_assisted_sort_by_date_and_artist)\nConcerts should be sorted by date, and by artist name alphabetically if dates are the same.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Users/sucrosmrkovic/dbwebb_kurser/kandidat_tc/TDD-Prompt-Engineering/test.py\", line 65, in test_ai_assisted_sort_by_date_and_artist\n    self.assertEqual(itinerary[1][0], \"Artist A\", \"Concerts were not sorted by date and artist name alphabetically.\")\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'Artist C' != 'Artist A'\n- Artist C\n?        ^\n+ Artist A\n?        ^\n : Concerts were not sorted by date and artist name alphabetically.\n\n----------------------------------------------------------------------\nRan 6 tests in 0.006s\n\nFAILED (failures=1)\n"
+      }
+    }
+  ],
+  "file_changes": [],
+  "coverage_reports": [
+    {
+      "timestamp": "2025-04-21T16:46:34.289606",
+      "total_coverage": 26.666666666666668,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 11,
+          "lines_covered": 8,
+          "lines_missed": 15,
+          "percentage": 72.72727272727273
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:51:04.533013",
+      "total_coverage": 22.22222222222222,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 14,
+          "lines_covered": 11,
+          "lines_missed": 18,
+          "percentage": 78.57142857142857
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:54:24.728120",
+      "total_coverage": 20.833333333333332,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 20,
+          "lines_covered": 16,
+          "lines_missed": 22,
+          "percentage": 80.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:55:08.377042",
+      "total_coverage": 21.73913043478261,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 19,
+          "lines_covered": 15,
+          "lines_missed": 22,
+          "percentage": 78.94736842105263
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:56:21.969922",
+      "total_coverage": 21.73913043478261,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 19,
+          "lines_covered": 15,
+          "lines_missed": 22,
+          "percentage": 78.94736842105263
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:56:43.445364",
+      "total_coverage": 22.22222222222222,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 14,
+          "lines_covered": 11,
+          "lines_missed": 15,
+          "percentage": 78.57142857142857
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:57:22.667264",
+      "total_coverage": 22.22222222222222,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 14,
+          "lines_covered": 11,
+          "lines_missed": 15,
+          "percentage": 78.57142857142857
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T16:58:48.564865",
+      "total_coverage": 22.22222222222222,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 14,
+          "lines_covered": 11,
+          "lines_missed": 15,
+          "percentage": 78.57142857142857
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:00:04.800410",
+      "total_coverage": 22.22222222222222,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 14,
+          "lines_covered": 11,
+          "lines_missed": 15,
+          "percentage": 78.57142857142857
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:01:19.694033",
+      "total_coverage": 23.529411764705884,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 13,
+          "lines_covered": 10,
+          "lines_missed": 15,
+          "percentage": 76.92307692307692
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:01:46.073848",
+      "total_coverage": 23.529411764705884,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 13,
+          "lines_covered": 10,
+          "lines_missed": 15,
+          "percentage": 76.92307692307692
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:04:03.844298",
+      "total_coverage": 23.529411764705884,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 13,
+          "lines_covered": 10,
+          "lines_missed": 15,
+          "percentage": 76.92307692307692
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:05:17.920428",
+      "total_coverage": 25.0,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 12,
+          "lines_covered": 9,
+          "lines_missed": 15,
+          "percentage": 75.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:12:03.922169",
+      "total_coverage": 22.727272727272727,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 18,
+          "lines_covered": 14,
+          "lines_missed": 22,
+          "percentage": 77.77777777777777
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:18:48.055420",
+      "total_coverage": 22.727272727272727,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 18,
+          "lines_covered": 14,
+          "lines_missed": 22,
+          "percentage": 77.77777777777777
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:21:56.821980",
+      "total_coverage": 18.51851851851852,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 23,
+          "lines_covered": 19,
+          "lines_missed": 22,
+          "percentage": 82.6086956521739
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:25:09.495804",
+      "total_coverage": 18.51851851851852,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 23,
+          "lines_covered": 19,
+          "lines_missed": 22,
+          "percentage": 82.6086956521739
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:31:38.738888",
+      "total_coverage": 7.142857142857143,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 24,
+          "lines_covered": 23,
+          "lines_missed": 11,
+          "percentage": 95.83333333333333
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:35:36.415099",
+      "total_coverage": 7.142857142857143,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 24,
+          "lines_covered": 23,
+          "lines_missed": 11,
+          "percentage": 95.83333333333333
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T17:36:48.940961",
+      "total_coverage": 7.142857142857143,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 24,
+          "lines_covered": 23,
+          "lines_missed": 11,
+          "percentage": 95.83333333333333
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:01:48.151933",
+      "total_coverage": 7.142857142857143,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 24,
+          "lines_covered": 23,
+          "lines_missed": 11,
+          "percentage": 95.83333333333333
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:05:33.644124",
+      "total_coverage": 49.09090909090909,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 14,
+          "lines_missed": 11,
+          "percentage": 51.851851851851855
+        },
+        "test.py": {
+          "lines_total": 24,
+          "lines_covered": 11,
+          "lines_missed": 23,
+          "percentage": 45.833333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:12:33.237167",
+      "total_coverage": 40.298507462686565,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 14,
+          "lines_missed": 11,
+          "percentage": 51.851851851851855
+        },
+        "test.py": {
+          "lines_total": 36,
+          "lines_covered": 23,
+          "lines_missed": 23,
+          "percentage": 63.888888888888886
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:13:12.299253",
+      "total_coverage": 61.19402985074627,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 36,
+          "lines_covered": 14,
+          "lines_missed": 35,
+          "percentage": 38.888888888888886
+        },
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 9,
+          "lines_missed": 18,
+          "percentage": 33.333333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:19:08.523057",
+      "total_coverage": 56.52173913043478,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 38,
+          "lines_covered": 18,
+          "lines_missed": 38,
+          "percentage": 47.36842105263158
+        },
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 9,
+          "lines_missed": 18,
+          "percentage": 33.333333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:19:30.191218",
+      "total_coverage": 59.42028985507246,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 38,
+          "lines_covered": 16,
+          "lines_missed": 38,
+          "percentage": 42.10526315789474
+        },
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 9,
+          "lines_missed": 18,
+          "percentage": 33.333333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:21:43.813640",
+      "total_coverage": 59.42028985507246,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 38,
+          "lines_covered": 16,
+          "lines_missed": 38,
+          "percentage": 42.10526315789474
+        },
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 9,
+          "lines_missed": 18,
+          "percentage": 33.333333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-21T18:21:51.180107",
+      "total_coverage": 60.869565217391305,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 38,
+          "lines_covered": 15,
+          "lines_missed": 38,
+          "percentage": 39.473684210526315
+        },
+        "main.py": {
+          "lines_total": 27,
+          "lines_covered": 9,
+          "lines_missed": 18,
+          "percentage": 33.333333333333336
+        }
+      }
+    }
+  ],
+  "task_times": [
+    {
+      "timestamp": "2025-04-21T17:24:03.311168",
+      "task": "Manual test writing (RED phase)",
+      "duration": 60.0
+    },
+    {
+      "timestamp": "2025-04-21T18:06:45.219553",
+      "task": "Manual implementation (GREEN phase)",
+      "duration": 45.0
+    },
+    {
+      "timestamp": "2025-04-21T18:09:18.630178",
+      "task": "Manual refactoring (REFACTOR phase)",
+      "duration": 10.0
+    },
+    {
+      "timestamp": "2025-04-21T18:25:57.167636",
+      "task": "AI-assisted implementation (GREEN phase)",
+      "duration": 20.0
+    },
+    {
+      "timestamp": "2025-04-21T18:26:33.040334",
+      "task": "AI-assisted refactoring (REFACTOR phase)",
+      "duration": 10.0
+    }
+  ],
+  "constraint_assignments": {
+    "manual": [
+      3,
+      1,
+      2
+    ],
+    "ai_assisted": [
+      4,
+      0,
+      5
+    ],
+    "assigned_at": "2025-04-21T16:45:14"
+  }
+}

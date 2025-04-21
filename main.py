@@ -5,6 +5,7 @@ This module provides functionality to build an itinerary of upcoming concerts.
 """
 
 import math
+from datetime import datetime
 
 class Concert:
     """
@@ -31,8 +32,24 @@ class ItineraryBuilder:
     """
     
     def build_itinerary(self, concerts):
-        return []
+        artist_concerts = {}
+        for concert in concerts:
+            if concert.artist not in artist_concerts or datetime.strptime(concert.date, "%Y-%m-%d") < datetime.strptime(artist_concerts[concert.artist].date, "%Y-%m-%d"):
+                artist_concerts[concert.artist] = concert
+        unique_concerts = list(artist_concerts.values())
+        unique_concerts.sort(key=lambda c: datetime.strptime(c.date, "%Y-%m-%d"))
 
+        final_itinerary = []
+        used_dates = set()
+        for concert in unique_concerts:
+            if concert.date not in used_dates:
+                final_itinerary.append([
+                    concert.artist,
+                    concert.date,
+                    concert.location
+                ])
+                used_dates.add(concert.date)
+        return final_itinerary
 
 if __name__ == "__main__":
     from concerts_data import get_all_concerts
